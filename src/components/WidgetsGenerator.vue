@@ -5,9 +5,9 @@
         class="col"
         v-for="item in widgets"
         :key="item.order"
-        :cols="item.position"
+        :cols="12"
         :lg="item.position"
-        :sm="item.position"
+        :xs="item.position"
         :order="item.order"
       >
         <v-card height="fit-content" class="card">
